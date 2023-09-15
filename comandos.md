@@ -149,4 +149,84 @@ git checkout master
 git merge teste
 ```
 
-    
+### Removendo branch
+
+O comando git branch -D serve para remover uma branch.
+
+Ele remove uma branch.
+
+```
+git branch -D NOME_DA_BRANCH
+```
+
+### Clonando um repositório
+
+O comando git clone serve para clonar um repositório.
+
+Ele clona um repositório.
+
+```
+git clone URL_DO_REPOSITORIO
+```
+
+### Setando um repositório remoto
+
+O comando git remote serve para setar um repositório remoto.
+
+Ele seta um repositório remoto.
+
+```
+git remote add origin URL_DO_REPOSITORIO
+```
+
+### Enviando um repositório local para um repositório remoto
+
+O comando git push serve para enviar um repositório local para um repositório remoto.
+
+Ele envia um repositório local para um repositório remoto.
+
+```
+git push -u origin NOME_DA_BRANCH
+```
+O -u serve para setar a branch local como upstream da branch remota.
+
+### Atualizando um repositório local com um repositório remoto
+
+O comando git pull serve para atualizar um repositório local com um repositório remoto.
+
+Ele atualiza um repositório local com um repositório remoto.
+
+```
+git pull origin NOME_DA_BRANCH
+```
+
+### Criando uma tag
+
+O comando git tag serve para criar uma tag.
+
+Tags servem para marcar commits importantes.
+
+```
+git tag NOME_DA_TAG
+```
+
+### Enviando uma tag para o repositório remoto
+
+O comando git push serve para enviar uma tag para o repositório remoto.
+
+Ele envia uma tag para o repositório remoto.
+
+```
+git push origin NOME_DA_TAG
+```
+
+### Criando uma branch e mudando para ela
+
+O comando git checkout -b serve para criar uma branch e mudar para ela.
+
+Ele cria uma branch e muda para ela.
+
+```
+git checkout -b NOME_DA_BRANCH
+```
+
